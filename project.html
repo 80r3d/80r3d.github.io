@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Jay Patel</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo"><strong>JAY PATEL</strong></a>
+					<ul class="icons">
+						<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
+						<li><a href="https://www.linkedin.com/in/jay-patel-441187158/" target="_blank"
+								class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/80r3d" target="_blank" class="icon brands fa-github"><span
+									class="label">Github</span></a></li>
+						
+					</ul>
+				</header>
+
+				<!-- Content -->
+				<section>
+					<header class="main">
+						<h1>Projects</h1>
+					</header>
+
+					<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span>-->
+
+					<p>During my undergraduate studies, I was a part of many projects and teams. I worked on projects
+						from start to finish, from design to development to testing. Take a glimpse of them...</p>
+					<hr class="major" />
+					<section id="e-writer">
+						<h2>2D & 3D Graphics Engine</h2>
+						<p>The main objective of the project was to display a cube on LCD through 3D Graphics
+							implementation on LPCXpresso 1769. The goal of this project was to learn how to interface
+							display device with LPCXpresso 1769, to use LPCXpresso IDE and to program the CPU module to
+							implement 3D graphics.</p>
+						<p>The LPCxpresso LPC1769 module is a development module which has ARM Cortex-M3 Microcontroller
+							in it. A 1.8” LCD is interfaced with the LPCXpresso 1769. 18-bit (262,144) color and has 4
+							or 5 wire SPI digital interface. The function to display line on the LCD is called with the
+							help of SPI. </p>
+						<p>Required strong math skills especially in vector algebra. Enlightened about various features
+							and fuctions of LPC1769. Skilled up with programming in embedded c/c++ and learned about I/O
+							protocols of a microcontroller and display device.</p>
+
+
+						<p>
+						<ul class="actions">
+							<li><a href="https://github.com/80r3d/2D-3D-Graphics-Engine" target="_blank"
+									class="button primary">Github Repo</a></li>
+							<li><a href="https://drive.google.com/file/d/18f62CQfInkwh76wq7nN7b90iAyLCbd3G/view?usp=sharing"
+									target="_blank" class="button primary">Report</a></li>
+							<li><a href="https://drive.google.com/file/d/1M1UZ5UMPssATgg9qfMAoWGDUTU9safjF/view?usp=sharing"
+										target="_blank" class="button primary">Video</a></li>
+
+						</ul>
+						</P>
+						<div class="box alt">
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-4"><span class="image fit"><img src="images/screen_saver_2d.jpeg"
+											alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/Output.jpeg"
+											alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/LPCWithHost.jpeg"
+											alt="" /></span></div>
+							</div>
+						</div>
+					</section>
+
+
+
+
+					<hr class="major" />
+					<section id="braille-printer">
+						<h2>Security System Using face Detection & Recognition</h2>
+						<p>This was my final year project in undergrad. In this we Implemented and deployed a face
+							recognition security system utilizing computer vision onRaspberry Pi. Used a CSI (Camera
+							Serial Interface) to interface pi-camera to Raspberry Pi.</p>
+						<p>I was part of 2-student team and personally worked on Raspberry pi setup and pi camera interfacing. I wrote the working python script for face detection using opencv library. I analyzed various face detection algorithms (Eigen-face, SURF, SIFT, Haar-Like) and trained machine using each model to cultivate a better idea of why selecting a particular algorithm.</p>
+						<p>
+						<ul class="actions">
+							<li><a href="https://github.com/80r3d/Real-time-Face-detection-for-security-purpose" target="_blank"
+								class="button primary">Github Repo</a></li>
+							<li><a href="https://github.com/80r3d/Real-time-Face-detection-for-security-purpose/blob/main/FINALREPORTSEM8.pdf"
+									target="_blank" class="button primary">Report</a></li>
+						</ul>
+						</P>
+						<div class="box alt">
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-4"><span class="image fit"><img src="images/FD1.png"
+											alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/FD2.png"
+											alt="" /></span></div>
+								<div class="col-4"><span class="image fit"><img src="images/FD3.png"
+											alt="" /></span></div>
+
+								<div class="col-4"><span class="image fit"><img src="images/FD4.png"
+											alt="" /></span></div>
+								
+							</div>
+						</div>
+					</section>
+					<!--<hr class="major" />
+					<section id="pov-clock">
+						<h2>POV Clock</h2>
+									<p>Due to persistence of vision when we see a fast moving or revolving led light, we see a trail of light. Due to this, when we mount an LED on a strip and by revolving the strip, we see a circle of lighting trail. Like this, we can also mount more than two LEDs and obtain that many circles. When we mount seven to eight LEDs in line, we find a solid circle formed. For the POV clock, we used seven LEDs to print 0 to 9 digits.</p>
+									<p>For the POV clock, the first step for microcontroller is to read time from real-tile clock (RTC). We implemented I2C (Inter-Integrated Circuit) protocol, in which microcontroller acted as a master and RTC as a slave. A microcontroller gives commands to LEDs to turn on and off to make different digits which can show time in HH:MM:SS formate like a simple clock we see in everyday life.</p> 
+									<p>
+									<ul class="actions">
+												<li><a href="https://drive.google.com/file/d/1rqbpq5JChMzEnjcm7gcFzOo7uPjudGDn/view?usp=sharing" target="_blank" class="button primary">Report</a></li>
+									</ul>
+									</P>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/pov-1.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pov-2.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pov-3.jpg" alt="" /></span></div>
+											
+											<div class="col-4"><span class="image fit"><img src="images/pov-4.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pov-5.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pov-6.jpg" alt="" /></span></div>
+											
+											<div class="col-4"><span class="image fit"><img src="images/pov-7.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pov-8.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pov-9.jpg" alt="" /></span></div>
+										</div>				
+									</div>
+									</section>
+									<hr class="major" />
+									<section id="water-level-indicator">
+									<h2>Water Level Indicator</h2>
+									<p>Nowadays, wastage of water is one of the major problems faced by the world. One of the reasons for this is the overflowing of water from the tanks and no one to monitor for it. Our project can solve this problem up to some extent. We have made a "Water-Level Indicator" which can show up to what level the water has been filled in the tank, and once it is fully filled the alarm starts beeping.</p>
+									<p>Water-Level Indicators are also available in the market, but the price ranges from 2600 to 3000 rupees per unit. They are made using microcontrollers and other programmable devices, which increases their price. But in our model we have used the basic non-programmable electronics components, so the total cost of our model is 550 rupees. And the performance of both the products is almost similar. So we tried to make an affordable model of the Water-Level Indicator. I hope you like it.</p> 
+									<p>
+									<ul class="actions">
+												<li><a href="https://drive.google.com/file/d/1pYEdrdvQWBcI-cZuirLTJvYB9HqgZo-r/view?usp=sharing" target="_blank" class="button primary">Report</a></li>
+									</ul>
+									</P>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/water-1.png" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/water-2.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/water-3.jpg" alt="" /></span></div>
+										</div>				
+									</div>								
+									</section>
+								</section>-->
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+						<div id="sidebar">
+							<div class="inner">
+
+								<!-- Search -->
+								<!--<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>-->
+
+								<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Portfolio</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="experience.html">Work Experience</a></li>
+										<li><a href="project.html">Project</a></li>
+
+										<!--<li>
+											<span class="opener">Other</span>
+											<ul>
+												<li><a href="education.html">Education and Courses</a></li>
+												<li><a href="achievements.html">Achievements</a></li>
+												<li><a href="skills.html">Skill Set</a></li>
+												<li><a href="extra-curriculum.html">Extra Curriculum</a></li>
+												<li><a href="certificates.html">Certifications</a></li>
+												<li><a href="books.html">Academic Literature</a></li>
+											</ul>
+										</li>-->
+										<li><a href="https://drive.google.com/file/d/1__r9tF2EGiVUaOz9Sh9oeLxE-I_Ji5aD/view?usp=sharing"
+												target="_blank">Resume</a></li>
+										<!--<li><a href="#">Etiam Dolore</a></li>
+										<li><a href="#">Adipiscing</a></li>
+										<li>
+											<span class="opener">Another Submenu</span>
+											<ul>
+												<li><a href="#">Lorem Dolor</a></li>
+												<li><a href="#">Ipsum Adipiscing</a></li>
+												<li><a href="#">Tempus Magna</a></li>
+												<li><a href="#">Feugiat Veroeros</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Maximus Erat</a></li>
+										<li><a href="#">Sapien Mauris</a></li>
+										<li><a href="#">Amet Lacinia</a></li>-->
+									</ul>
+								</nav>
+
+								<!-- Section -->
+								<!--<section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>-->
+
+								<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>Happy to connect with you.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a
+												href="mailto:jayjp2214@gmail.com">jayjp2214@gmail.com</a></li>
+										<li class="icon solid fa-phone">(+1) 669 588 7172</li>
+										<li class="icon solid fa-home">760 N 7th St #4317, San Jose, CA, 95112</li>
+									</ul>
+								</section>
+
+								<!-- Footer -->
+								<!--<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>-->
+
+							</div>
+						</div>
+
+			</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
